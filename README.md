@@ -1,11 +1,11 @@
 # Celiac_Project_Or
-Naive B cell project 
-Introduction:
+[Naive B cell project]
+## Introduction:
 In this project we working with Naive B cells data set. 
 We will try to create a model that will predict the subject's health status based
  on the features of his repertoire sequences.
 
-Data Pre-Proccecing:
+## Data Pre-Proccecing:
 The data was obtained from a plate of naive B cells derived from blood 
 samples of 98 patients, 51 of whom were diagnosed with celiac disease. 
 (It is known that there are specific biomarkers that allow us to specifically 
@@ -15,7 +15,7 @@ sequence naive B cells with error rates ranging from 10-20%). We get FASTA files
 the raws represent patient's repertoire sequences, and the different columns 
 describe different characteristics of the sequence.
 
-Project goal:
+## Project goal:
 In this work we will investigate a range of state-of-the-art machine learning 
 methods for classification, including random forests, logistic regression and 
 support vector regression. These models will be applied to predict the 
@@ -30,12 +30,12 @@ A satisfying classification model will approve a future low cost test for early
  detection of celiac patients, save unnecessary medical procedures and might
  reveal unique signatures for potential antibodies development.
 
-Input:
+## Input:
 patient’s BCR repertoire
-Output:
+## Output:
 A classified clinical status for the patient.
 
-Features:
+## Features:
 D: Gene & Family usage 
 V : Gene & Family usage 
 J : Gene usage 
@@ -55,7 +55,7 @@ CDR3_AA_ACIDIC: fraction of informative position that are Asp or Glu.
 CDR3_AA_AROMATIC: fraction of informative positions that are His,Phe,Trp or Tyr. 
 (For more information about each feature - See the "Celiac.ppt" file)
 
-Model: 
+## Model: 
 We utilized a machine learning approach, in order to predicts the clinical group 
 based on a combination of the given features. This approach can be utilized not
  only as a prediction model, but it may also be used as a tool to identify 
@@ -76,7 +76,7 @@ features to generate the prediction model. The process of sampling
 and training was repeated K times, to ensure that the model was not 
 biased towards specific samples.
 
-Model Steps:
+## Model Steps:
 Step 1: Data Overview 
 1.2: Feature Engineering  
 2.1.2: First visualization 
